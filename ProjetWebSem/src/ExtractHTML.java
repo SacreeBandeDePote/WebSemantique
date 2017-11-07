@@ -1,67 +1,60 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import java.util.Scanner;
 
 public class ExtractHTML {
 
-   public static void main(String[] args) {
-      DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+	public static final String CACHE_DIRECTORY = "cache/";
+	
+	public static void main(String[] args) throws IOException {
+		String key = "AIzaSyBspyc1fD-X92bkL7RdKoiI55c2n3Hr_vE";
+		String qry="Toz";
 
-      try {
-         DocumentBuilder builder = factory.newDocumentBuilder();
-         File fileXML = new File("html.html");
-         Document xml = builder.parse(fileXML);
-     
-         ArrayList<Element> list = new ArrayList<>();
-         Element root = xml.getDocumentElement();
-         System.out.println(root);
-         getNodes(root, list);
-         for(Element el : list){
-            System.out.println("Nom : " + el.getNodeName() + " - Valeur : " + el.getTextContent());
-         }         
-      } catch (ParserConfigurationException e) {
-         e.printStackTrace();
-      } catch (SAXException e) {
-         e.printStackTrace();
-      } catch (IOException e) {
-         e.printStackTrace();
-      }
-   }
-   
-   
-   public static void getNodes(Node n, ArrayList<Element> listElement){
-      String str = new String();
-      if(n instanceof Element){
-         Element element = (Element)n;
-         if(n.getNodeName().equals("feuille"))
-            listElement.add(element);
-       
-         //Nous allons maintenant traiter les nœuds enfants du nœud en cours de traitement
-         int nbChild = n.getChildNodes().getLength();
-         //Nous récupérons la liste des nœuds enfants
-         NodeList list = n.getChildNodes();
-        
-         //nous parcourons la liste des nœuds
-         for(int i = 0; i < nbChild; i++){
-            Node n2 = list.item(i);
-            
-            //si le nœud enfant est un Element, nous le traitons
-            if (n2 instanceof Element){
-               //appel récursif à la méthode pour le traitement du nœud et de ses enfants 
-               getNodes(n2, listElement);
-            }
-         }
-      }
-   }   
+		ArrayList<String> list = new ArrayList<String>();
+
+		File cacheFile = new File(CACHE_DIRECTORY + qry +".txt");
+		if(!cacheFile.exists()) {
+
+			URL url = new URL(
+					"https://www.googleapis.com/customsearch/v1?key="+key+ "&cx=013036536707430787589:_pqjad5hr1a&q="+ qry + "&alt=json");
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestMethod("GET");
+			conn.setRequestProperty("Accept", "application/json");
+			BufferedReader br = new BufferedReader(new InputStreamReader(
+					(conn.getInputStream())));
+
+			String output;
+			System.out.println("Output from Server .... \n");
+			
+			PrintWriter writer = new PrintWriter(CACHE_DIRECTORY + qry+".txt", "UTF-8");
+			
+			while ((output = br.readLine()) != null) {
+				if(output.contains("\"link\": \"")){                
+					String link=output.substring(output.indexOf("\"link\": \"")+("\"link\": \"").length(), output.indexOf("\","));
+					System.out.println(link);       //Will print the google search links
+					list.add(link);
+					writer.println(link);
+				}     
+			}
+			writer.close();
+			conn.disconnect();
+		} else {
+			BufferedReader reader = null;
+			reader = new BufferedReader(new FileReader(CACHE_DIRECTORY + qry + ".txt"));
+			
+			StringBuilder sb = new StringBuilder();
+			String line = reader.readLine();
+			
+			while( line != null ) {
+				System.out.println(line);
+			}
+		}
+	}   
 }
