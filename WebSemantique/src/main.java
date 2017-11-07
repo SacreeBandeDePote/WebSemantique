@@ -1,3 +1,7 @@
-xdfcghjkl
+package src;
 
-fonction test
+public class Main{
+	public static void main(String[] args) {
+		
+	}
+}
