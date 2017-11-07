@@ -20,13 +20,13 @@ public class ExtractHTML {
 
       try {
          DocumentBuilder builder = factory.newDocumentBuilder();
-         File fileXML = new File("xml.xml");
+         File fileXML = new File("html.html");
          Document xml = builder.parse(fileXML);
-         
+     
          ArrayList<Element> list = new ArrayList<>();
          Element root = xml.getDocumentElement();
+         System.out.println(root);
          getNodes(root, list);
-         System.out.println(list);
          for(Element el : list){
             System.out.println("Nom : " + el.getNodeName() + " - Valeur : " + el.getTextContent());
          }         
