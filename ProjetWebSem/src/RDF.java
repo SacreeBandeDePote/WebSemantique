@@ -1,6 +1,8 @@
 import java.util.*;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 
-public class DBPedia {
+public class RDF {
 
 	public static ArrayList<String> URIs;
 
