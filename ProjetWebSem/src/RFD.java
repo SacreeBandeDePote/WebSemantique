@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class DBPedia {
+public class RFD {
 
 	public static ArrayList<String> URIs;
 
