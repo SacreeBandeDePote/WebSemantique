@@ -1,6 +1,7 @@
 import java.util.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.apache.jena;
 
 public class RDF {
 
@@ -25,6 +26,8 @@ public class RDF {
 	}
 
 	public static void createRDF(JSONArray jsonListe) {
+
+
 
 	}
 
