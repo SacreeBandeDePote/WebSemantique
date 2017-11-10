@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-public class ExtractHTML {
+public class ExtractURL {
 
 	private static final String CACHE_DIRECTORY = "cache/";
 
