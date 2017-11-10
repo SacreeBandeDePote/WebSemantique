@@ -3,7 +3,6 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.HashMap;
@@ -26,10 +25,37 @@ public class HTTPRequest {
 		con.setRequestProperty(key, val);
 	}
 	
-	public void addParam(String key) {
-		
+	public void addParam(String key, String val) {
+		parameters.put(key, val);
 	}
 
+	public String doRequest() throws IOException {
+		StringBuffer content = new StringBuffer();
+		
+		con.setDoOutput(true);
+		DataOutputStream out = new DataOutputStream(con.getOutputStream());
+		out.writeBytes(ParameterStringBuilder.getParamsString(parameters));
+		out.flush();
+		out.close();
+		
+		BufferedReader input = null;
+		try {
+			input = new BufferedReader(
+					new InputStreamReader(con.getInputStream()));
+
+			String inputLine;
+			while ((inputLine=input.readLine())!=null) {
+				content.append(inputLine);
+				System.out.println(inputLine);
+			}
+		}
+		finally {
+			input.close();
+			con.disconnect();
+		}
+		
+		return content.toString();
+	}
 
 
 	public static void main(String[] args) throws IOException {
