@@ -46,7 +46,7 @@ public class HTTPRequest {
 			String inputLine;
 			while ((inputLine=input.readLine())!=null) {
 				content.append(inputLine);
-				System.out.println(inputLine);
+				//System.out.println(inputLine);
 			}
 		}
 		finally {
