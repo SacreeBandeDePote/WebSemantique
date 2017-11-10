@@ -1,23 +1,32 @@
 import java.util.*;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 public class RDF {
 
-	public static ArrayList<String> URIs;
+	public static JSONArray jsonListe;
 
 	public static void main(String[] args) {
 
-		URIs = new ArrayList<>();
-		URIs.add("http://fr.dbpedia.org/resource/Donald_Trump");
-		URIs.add("http://fr.dbpedia.org/resource/New_York");
-		URIs.add("http://fr.dbpedia.org/resource/États-Unis");
-		URIs.add("http://fr.dbpedia.org/resource/Animateur_de_télévision");
-		URIs.add("http://fr.dbpedia.org/resource/Personnalité_politique");
+		jsonListe = new JSONArray();
+
+		JSONObject json1 = new JSONObject("{\"sujet\":\"Donald Trump\",\"verbe\":\"président\",\"complément\": \"Etats-Unis\"}");
+		JSONObject json2 = new JSONObject("{\"sujet\":\"Donald Trump\",\"verbe\":\"habite\",\"complément\":\"New York\"}");
+		JSONObject json3 = new JSONObject("{\"sujet\":\"John Doe\",\"verbe\":\"habite\",\"complément\":\"New York\"}");
+		JSONObject json4 = new JSONObject("{\"sujet\":\"John Doe\",\"verbe\":\"déteste\",\"complément\":\"Donald Trump\"}");
+		JSONObject json5 = new JSONObject("{\"sujet\":\"John Doe\",\"verbe\":\"citoyen\",\"complément\":\"Etats-Unis\"}");
+
+		jsonListe.put(json1);
+		jsonListe.put(json2);
+		jsonListe.put(json3);
+		jsonListe.put(json4);
+		jsonListe.put(json5);
 
 	}
 
-	
+	public static void createRDF(JSONArray jsonListe) {
+
+	}
 
 
 }
