@@ -6,7 +6,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -39,9 +38,7 @@ public class HTTPRequest {
 			Scanner scanner = new Scanner(co.getInputStream());
 			scanner.useDelimiter("\\Z");
 			String string = scanner.next();
-			
-			System.out.println(string);
-			
+				
 			return string;
 			
 		} catch (MalformedURLException e) {
@@ -74,7 +71,9 @@ public class HTTPRequest {
 				// System.out.println(inputLine);
 			}
 		} finally {
-			input.close();
+			if (input != null) {
+				input.close();
+			}
 			con.disconnect();
 		}
 

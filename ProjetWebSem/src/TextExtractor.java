@@ -33,7 +33,7 @@ public class TextExtractor {
 		getTagValues(full);
 	}
 
-	private static List<String> getTagValues(final String str) {
+	public static List<String> getTagValues(final String str) {
 	    final List<String> tagValues = new ArrayList<String>();
 	    final Matcher matcher = REGEX.matcher(str);
 	    while (matcher.find()) {
