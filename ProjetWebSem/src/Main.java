@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.apache.jena.query.ResultSetRewindable;
 import org.json.*;
 
 public class Main {
@@ -23,20 +24,21 @@ public class Main {
 			if (htmlText.length() != 0) {
 			onlyText = TextExtractor.getTextFromHTMLV2(htmlText);
 			}
-			System.out.println(onlyText);
+			//System.out.println(onlyText);
 			if (onlyText.length() != 0) {
 				uri = Spotlight.spotlightText(onlyText);
 				uris.add(uri);
 			}
 			
 			ResultSet res = Sparql.performeSparql(uri);
+			RDF.createRDF(res);
 			while(res.hasNext()) {
 				QuerySolution sol = res.nextSolution();
-				System.out.println(sol);
+				//System.out.println(sol);
 			}
 
-			System.out.println(compt);
-			System.out.println(uris);
+			//System.out.println(compt);
+			//System.out.println(uris);
 
 			compt++;
 		}
