@@ -3,7 +3,7 @@ import java.net.URLEncoder;
 import org.json.*;
 
 public class Spotlight {
-	public static JSONArray SpotlightText(String text) throws IOException {
+	public static JSONArray spotlightText(String text) throws IOException {
 
 		final String url = "http://model.dbpedia-spotlight.org/fr/annotate";
 
@@ -17,11 +17,11 @@ public class Spotlight {
 		String res = httpReq.doRequest();
 
 		JSONObject json = new JSONObject(res);
-		JSONArray test = (JSONArray) json.get("Resources");
+		JSONArray resources = (JSONArray) json.get("Resources");
 		JSONArray URIs = new JSONArray();
 
-		for (int i = 0; i < test.length(); i++) {
-			JSONObject tmp = test.getJSONObject(i);
+		for (int i = 0; i < resources.length(); i++) {
+			JSONObject tmp = resources.getJSONObject(i);
 			URIs.put(tmp.get("@URI"));
 		}
 		return URIs;
@@ -29,7 +29,9 @@ public class Spotlight {
 
 	public static void main(String[] args) throws IOException {
 		String text = "La ville de Berlin se situe dans le nord-est de l'Allemagne, dans la plaine germano-polonaise, à 33 m d'altitude, au confluent de la Spree et de la Havel. Une particularité de la ville est la présence de nombreux lacs et rivières, le long des cours d'eau. On en trouve plusieurs à l'ouest, mais aussi à l'est avec le Müggelsee. Berlin est égayée par plusieurs rivières, canaux, parcs et lacs (Havel, Wannsee, Müggelsee, Spree, Dahme, Landwehrkanal). Elle possède en outre une architecture ancienne et classique très riche.";
-		JSONArray jsontest = SpotlightText(text);
+		JSONArray jsontest = spotlightText(text);
 		System.out.println(jsontest);
+		
+		System.out.println(jsontest.get(0));
 	}
 }
