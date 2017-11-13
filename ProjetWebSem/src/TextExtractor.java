@@ -21,7 +21,8 @@ public class TextExtractor {
 		}
 		String full = String.join("\n", list);
 		reader.close();
-		getTextFromHTMLV2(full);
+		System.out.println(getTextFromHTMLV2(full));
+		
 	}
 
 	public static String getTextFromHTMLV2(final String str) {
