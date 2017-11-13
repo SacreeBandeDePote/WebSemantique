@@ -28,7 +28,6 @@ public class TextExtractor {
 	public static String getTextFromHTMLV2(final String str) {
 		 Document doc = Jsoup.parse(str);
 		 String text = doc.text();
-		 System.out.println(text);
 		 return text;
 	}
 }
