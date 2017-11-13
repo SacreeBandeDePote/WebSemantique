@@ -14,6 +14,7 @@ public class GoogleRequest {
 
 	private final static String API_KEY = "AIzaSyBspyc1fD-X92bkL7RdKoiI55c2n3Hr_vE";
 	private final static String CACHE_DIRECTORY = "cache/";
+	private final static int MAX_RESULT = 5;
 
 	public static ArrayList<String> getRequestResult(String search) throws UnsupportedEncodingException {
 
@@ -34,14 +35,17 @@ public class GoogleRequest {
 			System.out.println("Output from Server .... \n");
 
 			PrintWriter writer = new PrintWriter(CACHE_DIRECTORY + search + ".txt");
-
-			while ((output = br.readLine()) != null) {
+			
+			int count = 0;
+			
+			while ((output = br.readLine()) != null && count < MAX_RESULT) {
 				if (output.contains("\"link\": \"")) {
 					String link = output.substring(output.indexOf("\"link\": \"") + ("\"link\": \"").length(),
 							output.indexOf("\","));
 					System.out.println(link); // Will print the google search links
 					list.add(link);
 					writer.println(link);
+					count++;
 				}
 			}
 			writer.close();
