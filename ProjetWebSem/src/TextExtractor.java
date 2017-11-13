@@ -66,5 +66,19 @@ public class TextExtractor {
 		} else {
 			return null;
 		}
+=======
+
+	public static String getTextFromHTML(final String str) {
+	    final List<String> tagValues = new ArrayList<String>();
+	    final Matcher matcher = REGEX_P.matcher(str);
+	    while (matcher.find()) {
+	        tagValues.add(matcher.group(1));
+	        System.out.println(matcher.group(1));
+	    }
+	    
+	    String text = String.join("", tagValues);
+	    
+	    return text;
+>>>>>>> cb0f6599ead9a5283f053b25ec82355cc4a97c2d
 	}
 }

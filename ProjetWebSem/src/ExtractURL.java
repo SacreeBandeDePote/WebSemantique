@@ -1,26 +1,26 @@
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
 public class ExtractURL {
 
 	private static final String CACHE_DIRECTORY = "cache/";
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws UnsupportedEncodingException {
 		String qry = "Catalunia";
 
 		extractURLFromRequest(qry);
 	}
 
-	public static ArrayList<String> extractURLFromRequest(String qry) {
+	public static ArrayList<String> extractURLFromRequest(String qry) throws UnsupportedEncodingException {
 
 		ArrayList<String> list = new ArrayList<String>();
 
 		File cacheFile = new File(CACHE_DIRECTORY + qry + ".txt");
 		if (!cacheFile.exists()) {
-			GoogleRequest gr = new GoogleRequest();
-			list = gr.getRequestResult(qry);
+			list = GoogleRequest.getRequestResult(qry);
 		} else {
 			try {
 				System.out.println("Output from cache file .... \n");
@@ -30,7 +30,7 @@ public class ExtractURL {
 				String line = reader.readLine();
 
 				while (line != null) {
-					System.out.println(line);
+					//System.out.println(line);
 					list.add(line);
 					line = reader.readLine();
 				}

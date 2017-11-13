@@ -3,7 +3,7 @@ import java.net.URLEncoder;
 import org.json.*;
 
 public class Spotlight {
-	public static JSONArray spotlightText(String text) throws IOException {
+	public static JSONArray spotlightText(String text) throws IOException, JSONException {
 
 		final String url = "http://model.dbpedia-spotlight.org/fr/annotate";
 

@@ -2,25 +2,28 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.net.URLEncoder;
 
 public class GoogleRequest {
 
 	private final static String API_KEY = "AIzaSyBspyc1fD-X92bkL7RdKoiI55c2n3Hr_vE";
 	private final static String CACHE_DIRECTORY = "cache/";
 
-	public static ArrayList<String> getRequestResult(String search) {
+	public static ArrayList<String> getRequestResult(String search) throws UnsupportedEncodingException {
 
 		ArrayList<String> list = new ArrayList<String>();
 
 		URL url;
+		String encodeSearch = URLEncoder.encode(search, "UTF-8");
 		try {
 			url = new URL("https://www.googleapis.com/customsearch/v1?key=" + API_KEY
-					+ "&cx=013036536707430787589:_pqjad5hr1a&q=" + search + "&alt=json");
+					+ "&cx=013036536707430787589:_pqjad5hr1a&q=" + encodeSearch + "&alt=json");
 
 			HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
 			urlConnection.setRequestMethod("GET");
