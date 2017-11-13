@@ -18,7 +18,7 @@ public class Main {
 			String htmlText = HTTPRequest.simpleRequest(url);
 			String onlyText = "";
 			if (htmlText.length() != 0) {
-			onlyText = TextExtractor.getTextFromHTML(htmlText);
+			onlyText = TextExtractor.getTextFromHTMLV2(htmlText);
 			}
 			System.out.println(onlyText);
 			if (onlyText.length() != 0) {
