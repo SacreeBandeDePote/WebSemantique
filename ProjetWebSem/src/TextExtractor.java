@@ -11,7 +11,8 @@ import java.util.regex.Pattern;
 
 public class TextExtractor {
 
-	private static final Pattern REGEX = Pattern.compile("<p.*?>(.+?)</p>");
+	private static final Pattern REGEX_P = Pattern.compile("<p.*?>(.+?)</p>");
+	private static final Pattern REGEX_NO_BRACKETS = Pattern.compile("");
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -30,16 +31,20 @@ public class TextExtractor {
 		}
 		String full = String.join("\n", list);
 		reader.close();
-		getTagValues(full);
+		getTextFromHTML(full);
 	}
 
-	public static List<String> getTagValues(final String str) {
+
+	public static String getTextFromHTML(final String str) {
 	    final List<String> tagValues = new ArrayList<String>();
-	    final Matcher matcher = REGEX.matcher(str);
+	    final Matcher matcher = REGEX_P.matcher(str);
 	    while (matcher.find()) {
 	        tagValues.add(matcher.group(1));
 	        System.out.println(matcher.group(1));
 	    }
-	    return tagValues;
+	    
+	    String text = String.join("", tagValues);
+	    
+	    return text;
 	}
 }

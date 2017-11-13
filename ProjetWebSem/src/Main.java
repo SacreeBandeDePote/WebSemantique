@@ -17,7 +17,7 @@ public class Main {
 		for(String url : urls) {
 			System.out.println(url);
 			String htmlText = HTTPRequest.simpleRequest(url);
-			String onlyText = TextExtractor.getTagValues(htmlText);
+			String onlyText = TextExtractor.getTextFromHTML(htmlText);
 			uris.add(Spotlight.spotlightText(onlyText));
 			System.out.println(uris);
 		}
