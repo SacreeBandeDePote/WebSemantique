@@ -25,10 +25,7 @@ public class TextExtractor {
 
 		String line = reader.readLine();
 
-		//String full = new String(line);
-
 		while (line != null) {
-			//full.concat(line);
 			list.add(line);
 			line = reader.readLine();
 		}
@@ -37,14 +34,14 @@ public class TextExtractor {
 		getTextFromHTMLV2(full);
 	}
 
-	private static String getTextFromHTMLV2(final String str) {
+	public static String getTextFromHTMLV2(final String str) {
 		 Document doc = Jsoup.parse(str);
 		 String text = doc.text();
 		 System.out.println(text);
 		 return text;
 	}
 	
-	private static String getTextFromHTML(final String str) {
+	static String getTextFromHTML(final String str) {
 		if(str != null) {
 			List<String> tagValues = new ArrayList<String>();
 			Matcher matcher = REGEX_P.matcher(str);
@@ -68,3 +65,5 @@ public class TextExtractor {
 		}
 
 }
+}
+
