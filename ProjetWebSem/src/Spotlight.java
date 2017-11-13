@@ -17,7 +17,13 @@ public class Spotlight {
 		String res = httpReq.doRequest();
 
 		JSONObject json = new JSONObject(res);
-		JSONArray resources = (JSONArray) json.get("Resources");
+		JSONArray resources = null;
+		try {
+		resources = (JSONArray) json.get("Resources");
+		}	
+		catch (Exception e) {
+			e.printStackTrace();
+		}
 		JSONArray URIs = new JSONArray();
 
 		for (int i = 0; i < resources.length(); i++) {
