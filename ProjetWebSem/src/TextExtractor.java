@@ -30,30 +30,6 @@ public class TextExtractor {
 		 String text = doc.text();
 		 return text;
 	}
-	public static String getTextFromHTML(final String str) {
-		if(str != null) {
-			List<String> tagValues = new ArrayList<String>();
-			Matcher matcher = REGEX_P.matcher(str);
-			while (matcher.find()) {
-				tagValues.add(matcher.group(1));
-				System.out.println(matcher.group(1));
-			}
-			String text = String.join("", tagValues);
-
-			tagValues.clear();
-
-			Matcher matcher2 = REGEX_NO_BRACKETS.matcher(text);
-			while(matcher2.find()) {
-				//tagValues.add(matcher.group(1));
-				System.out.println(matcher2.group(2));
-			}
-
-			return text;
-		} else {
-			return null;
-		}
-
-}
 }
 
 
