@@ -3,10 +3,13 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class HTTPRequest {
 
@@ -28,6 +31,30 @@ public class HTTPRequest {
 		parameters.put(key, val);
 	}
 
+	public static String simpleRequest() {
+		try {
+			URL urll = new URL("https://www.google.com");
+			
+			URLConnection co = urll.openConnection();
+			Scanner scanner = new Scanner(co.getInputStream());
+			scanner.useDelimiter("\\Z");
+			String string = scanner.next();
+			
+			System.out.println(string);
+			
+			return string;
+			
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+	
 	public String doRequest() throws IOException {
 		StringBuffer content = new StringBuffer();
 
@@ -55,7 +82,7 @@ public class HTTPRequest {
 	}
 
 	public static void main(String[] args) throws IOException {
-		URL url = new URL("http://model.dbpedia-spotlight.org/fr/annotate");
+		/*URL url = new URL("http://model.dbpedia-spotlight.org/fr/annotate");
 		StringBuffer content = new StringBuffer();
 
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
@@ -87,6 +114,7 @@ public class HTTPRequest {
 			input.close();
 
 			con.disconnect();
-		}
+		}*/
+		System.out.println(simpleRequest());
 	}
 }

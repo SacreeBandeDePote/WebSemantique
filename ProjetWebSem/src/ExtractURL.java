@@ -8,7 +8,7 @@ public class ExtractURL {
 	private static final String CACHE_DIRECTORY = "cache/";
 
 	public static void main(String args[]) {
-		String qry = "";
+		String qry = "Catalunia";
 
 		extractURLFromRequest(qry);
 	}

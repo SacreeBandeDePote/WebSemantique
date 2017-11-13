@@ -13,7 +13,7 @@ public class GoogleRequest {
 	private final static String API_KEY = "AIzaSyBspyc1fD-X92bkL7RdKoiI55c2n3Hr_vE";
 	private final static String CACHE_DIRECTORY = "cache/";
 
-	public ArrayList<String> getRequestResult(String search) {
+	public static ArrayList<String> getRequestResult(String search) {
 
 		ArrayList<String> list = new ArrayList<String>();
 
@@ -56,4 +56,5 @@ public class GoogleRequest {
 		}
 		return list;
 	}
+
 }
