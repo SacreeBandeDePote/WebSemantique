@@ -31,9 +31,9 @@ public class HTTPRequest {
 		parameters.put(key, val);
 	}
 
-	public static String simpleRequest() {
+	public static String simpleRequest(String urlToRequest) {
 		try {
-			URL urll = new URL("https://www.google.com");
+			URL urll = new URL(urlToRequest);
 			
 			URLConnection co = urll.openConnection();
 			Scanner scanner = new Scanner(co.getInputStream());
@@ -115,6 +115,6 @@ public class HTTPRequest {
 
 			con.disconnect();
 		}*/
-		System.out.println(simpleRequest());
+		//System.out.println(simpleRequest());
 	}
 }
