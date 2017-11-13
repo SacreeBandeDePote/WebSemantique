@@ -40,7 +40,6 @@ public class TextExtractor {
 		 System.out.println(text);
 		 return text;
 	}
-
 	static String getTextFromHTML(final String str) {
 		if(str != null) {
 			List<String> tagValues = new ArrayList<String>();
