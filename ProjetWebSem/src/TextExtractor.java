@@ -9,11 +9,14 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
 public class TextExtractor {
 
 	private static final Pattern REGEX_P = Pattern.compile("<p.*?>(.+?)</p>");
-	private static final Pattern REGEX_NO_BRACKETS = Pattern.compile("");
-	
+	private static final Pattern REGEX_NO_BRACKETS = Pattern.compile("(.*?)<.+?>(.*)");
+
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		ArrayList<String> list = new ArrayList<String>();
@@ -23,7 +26,7 @@ public class TextExtractor {
 		String line = reader.readLine();
 
 		//String full = new String(line);
-		
+
 		while (line != null) {
 			//full.concat(line);
 			list.add(line);
@@ -31,19 +34,37 @@ public class TextExtractor {
 		}
 		String full = String.join("\n", list);
 		reader.close();
-		getTextFromHTML(full);
+		getTextFromHTMLV2(full);
 	}
 
+	private static String getTextFromHTMLV2(final String str) {
+		 Document doc = Jsoup.parse(str);
+		 String text = doc.text();
+		 System.out.println(text);
+		 return text;
+	}
+	
 	private static String getTextFromHTML(final String str) {
-	    final List<String> tagValues = new ArrayList<String>();
-	    final Matcher matcher = REGEX_P.matcher(str);
-	    while (matcher.find()) {
-	        tagValues.add(matcher.group(1));
-	        System.out.println(matcher.group(1));
-	    }
-	    
-	    String text = String.join("", tagValues);
-	    
-	    return text;
+		if(str != null) {
+			List<String> tagValues = new ArrayList<String>();
+			Matcher matcher = REGEX_P.matcher(str);
+			while (matcher.find()) {
+				tagValues.add(matcher.group(1));
+				System.out.println(matcher.group(1));
+			}
+			String text = String.join("", tagValues);
+
+			tagValues.clear();
+
+			Matcher matcher2 = REGEX_NO_BRACKETS.matcher(text);
+			while(matcher2.find()) {
+				//tagValues.add(matcher.group(1));
+				System.out.println(matcher2.group(2));
+			}
+
+			return text;
+		} else {
+			return null;
+		}
 	}
 }
