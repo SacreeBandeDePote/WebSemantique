@@ -31,7 +31,6 @@ public class Main {
 			
 			ResultSet res = Sparql.performeSparql(uri);
 			while(res.hasNext()) {
-				System.out.println("hello");
 				QuerySolution sol = res.nextSolution();
 				System.out.println(sol);
 			}
