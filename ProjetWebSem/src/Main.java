@@ -16,7 +16,10 @@ public class Main {
 		for(String url : urls) {
 			System.out.println(url);
 			String htmlText = HTTPRequest.simpleRequest(url);
-			String onlyText = TextExtractor.getTextFromHTML(htmlText);
+			String onlyText = "";
+			if (htmlText.length() != 0) {
+			onlyText = TextExtractor.getTextFromHTML(htmlText);
+			}
 			System.out.println(onlyText);
 			if (onlyText.length() != 0) {
 				uris.add(Spotlight.spotlightText(onlyText));

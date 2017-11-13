@@ -3,7 +3,7 @@ import java.net.URLEncoder;
 import org.json.*;
 
 public class Spotlight {
-	public static JSONArray spotlightText(String text) throws IOException {
+	public static JSONArray spotlightText(String text) throws IOException, JSONException {
 
 		final String url = "http://model.dbpedia-spotlight.org/fr/annotate";
 
@@ -17,13 +17,7 @@ public class Spotlight {
 		String res = httpReq.doRequest();
 
 		JSONObject json = new JSONObject(res);
-		JSONArray resources = null;
-		try {
-		resources = (JSONArray) json.get("Resources");
-		}	
-		catch (Exception e) {
-			e.printStackTrace();
-		}
+		JSONArray resources = (JSONArray) json.get("Resources");
 		JSONArray URIs = new JSONArray();
 
 		for (int i = 0; i < resources.length(); i++) {
