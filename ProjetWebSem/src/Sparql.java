@@ -13,28 +13,36 @@ public class Sparql {
 	public static String createFilter(JSONArray uris) {
 		String filter = "";
 		
-		for (int i = 0; i < uris.length()-1; i++) {
+		//int i = 0;
+		
+		for (int i = 0; i < uris.length()/100; i++) {
 			String uri = (String) uris.get(i);
 			filter = filter + "<"
 					+ uri
 					+ ">,\n";
 		}
 		
-		String uri = (String) uris.get(uris.length()-1);
+		String uri = (String) uris.get(uris.length()/100);
 		filter = filter + "<"
 				+ uri.toString()
 				+ ">";
 		
-		System.out.println(filter);
+		//System.out.println(filter);
 		
 		return filter;
 	}
 	
 	public static Query createQuery(JSONArray uris) {
+		
+		String filter = createFilter(uris);
+		
 		String query = "select * where {"
 				+ "FILTER (?s IN("
-				+ createFilter(uris)
+				+ filter
 				+ "))."
+				/*+ "FILTER (?c IN("
+				+ filter
+				+ "))."*/
 				+ "?s ?v ?c.}";
 		Query q = QueryFactory.create(query);
 		

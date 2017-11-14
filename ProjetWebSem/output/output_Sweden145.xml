@@ -1,0 +1,2993 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rs="http://www.w3.org/2001/sw/DataAccess/tests/result-set#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rs:ResultSet>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/U.S._states"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Verkhovna_Rada"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="fr">Une langue officielle est une langue qui est spécifiquement désignée comme telle, dans la constitution ou les textes de loi d'un pays, d'un État ou d'une organisation quelconque. Elle s'impose à tous les services officiels de l'État (organes de gouvernement, administrations, tribunaux, registres publics, documents administratifs, etc.), ainsi qu'à tous les établissements privés qui s'adressent au public.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Pan_South_African_Language_Board"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:parseType="Resource">
+        </rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/voc/vrank#hasRank"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Aramaic_script"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="pl">Język urzędowy – język, który otrzymał wyjątkowy status prawny na terenie państwa lub regionu administracyjnego. Zazwyczaj jest to język używany w krajowych strukturach legislacyjnych, np. parlamencie, choć prawo niektórych krajów wymaga, by dokumenty urzędowe były przedstawiane również w innych językach. Z językami urzędowymi są często mylone oficjalnie uznane języki mniejszości narodowych. Język oficjalnie uznany w danym kraju, nauczany w szkołach i wykorzystywany w oficjalnych dokumentach nie musi być językiem urzędowym. Prawie każde suwerenne państwo posiada przynajmniej jeden język urzędowy określony w konstytucji, rządowych dokumentach, stronach internetowych czy innych oficjalnych źródłach. W niektórych krajach język urzędowy nie został oficjalnie określony, a jedynie uzyskał taki status de facto, np. w Szwecji. Niektóre kraje, np. Albania, Francja czy Litwa, mają tylko jeden język urzędowy pomimo tego, że na ich terytorium powszechnie używa się również innych języków. Są też kraje z więcej niż jednym językiem urzędowym, np. Afganistan, Białoruś, Belgia, Boliwia, Kanada, Finlandia, Indie, Izrael, Malta, Pakistan, Paragwaj, Peru, Republika Południowej Afryki, Singapur czy Szwajcaria. W niektórych państwach, np. w Wielkiej Brytanii czy USA, język urzędowy nie został określony, choć można tam wskazać jeden, de facto główny język, a także uregulowania i praktyki prawne określające, jaki język powinien być używany w danych sytuacjach. W krajach takich jak Chiny, Irak, Włochy, Filipiny, Rosja czy Hiszpania obowiązuje jeden język urzędowy, ale w poszczególnych regionach współistnieją z nim lokalne języki urzędowe. Językiem urzędowym wielu byłych kolonii jest język niebędący ani językiem narodowym, ani najszerzej używanym. Najczęściej jest to angielski, hiszpański, francuski albo portugalski, Odwrotna sytuacja istnieje w Republice Irlandii, gdzie językiem urzędowym jest irlandzki, chociaż płynnie posługuje się nim mniej niż 10% populacji. Angielski, który jest używany praktycznie przez wszystkich mieszkańców, jest określony przez konstytucję jako drugi język oficjalny. W niektórych krajach spór wokół tego, który język powinien być uznany za urzędowy, prowadzi do poważnych konfliktów politycznych.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/New_Zealand_Sign_Language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Cognition100023271"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">The Miami Herald</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ar">لغة رسمية</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/The_Miami_Herald?oldid=650146442"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Category:Official_languages"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/dc/terms/subject"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Macedonian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Hong_Kong_Cantonese"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/List_of_territorial_entities_where_German_is_an_official_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ru">Официальный язык</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://it.dbpedia.org/resource/Lingua_ufficiale"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Assortment108398773"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/State_school"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Dari_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://ko.dbpedia.org/resource/공용어"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Māori_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">7C may stand for: 
+* 7C, the IATA code for Korean airline Jeju Air 
+* 7C, the Seventh Cambridge Survey, a radio astronomy reference 
+* 7C, the hexadecimal value for a percent-encoded pipe character (|) in a URI 
+* 7C, the 7 considerations for independent contract work and operation of a small services business, where the considerations start with the letter "C" 
+* 7C, the short name used for the 7C Alliance, the contractor networking business organised around the 7C considerations  
+* 7C, the short name used for 7: for Hamza and C: for Chbani, a man with a good heart and a smart bring</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Russian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/North_Frisian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/7C?oldid=648398457"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ja">公用語</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/European_Union"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Jeju_Air"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ja">公用語（こうようご）とは、国、州など、ある集団・共同体内の公の場において用いることが公式に定められた言語を指す。その集団が有する公的機関には義務が課され、公的情報を発信する際等には公用語を用いなければならない。「公共言語」というように間違えないよう注意。 ある国において公用語として複数の言語が定められた場合には、その全ての言語を用いて公的情報を国民へ伝えなければならない。従ってこの場合、国家（あるいは集団）の公的機関は、全ての公用語を併記し通訳して伝えることになる。これによって、指定された複数の言語のうちどれか一つの言語だけを理解する国民（や構成員）に対しても不利益を生じさせないという原則が守られる。 一言語集団が大多数を占める国家や圧倒的に強い力を持っている国家の場合、公用語を法律で定めていない場合もある。</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/List_of_official_languages_by_institution"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Switzerland"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/De_jure"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Israel"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Māori_Language_Act_1987"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Constitution_of_India"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="it">Una lingua ufficiale è la lingua che uno Stato sovrano ha legalmente adottato per la produzione dei propri documenti ufficiali, come le leggi, gli atti giudiziari e notarili. Sono generalmente considerate lingue ufficiali di uno Stato le lingue citate come tali nella Costituzione o nelle leggi equiparate ad essa. Se le lingue minoritarie compaiono accanto alle lingue ufficiali come tali (es. "Nelle zone in cui è presente questa minoranza linguistica, tale lingua è ufficiale in quelle zone al pari della/e lingua/e ufficiale/i."), anche queste lingue sono considerate come ufficiali dello Stato (è il caso della Slovenia). Organismi sovranazionali, o associazioni private, possono definire una propria lingua ufficiale che può essere diversa da quella del paese in cui hanno sede, soprattutto se </rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://cs.dbpedia.org/resource/Úřední_jazyk"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Hebrew"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>v</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/New_Brunswick"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://nl.dbpedia.org/resource/Officiële_taal"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/National_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">An official language is a language that is given a special legal status in a particular country, state, or other jurisdiction. Typically a country's official language refers to the language used within government (e.g., courts, parliament, administration). Since "the means of expression of a people cannot be changed by any law", the term "official language" does not typically refer to the language used by a people or country, but by its government. Worldwide, 178 countries have at least one official language, and 101 of these countries recognise more than one language. Many of the world's constitutions mention one or more official and/or national languages. Some countries use the official language designation to empower indigenous groups by giving them access to the government in their native languages. In countries that do not formally designate an official language, a de facto national language usually evolves. English is the most common official language, with recognized status in 51 countries. Arabic, French, and Spanish are also widely recognized. An official language that is also an indigenous language is called endoglossic, one that is not indigenous is exoglossic. An instance is Nigeria which has three endoglossic official languages. By this the country aims to protect the indigenous languages although at the same time recognising the English language as its lingua franca.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/WikicatLinguisticRights"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://rdf.freebase.com/ns/m.01bff2"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="zh">官方语言（英语：Official language），經由國家，政府或其他具有管轄權的組織所認定具備法定地位的語言。一個國家的官方語言，通常就是政府機構中使用的正式語言，是其公民与其政府机关通讯时使用的语言。</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Bosnian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Languages_of_the_United_States"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/List_of_territorial_entities_where_English_is_an_official_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="pl">Język urzędowy – język, który otrzymał wyjątkowy status prawny na terenie państwa lub regionu administracyjnego. Zazwyczaj jest to język używany w krajowych strukturach legislacyjnych, np. parlamencie, choć prawo niektórych krajów wymaga, by dokumenty urzędowe były przedstawiane również w innych językach. Z językami urzędowymi są często mylone oficjalnie uznane języki mniejszości narodowych. Język oficjalnie uznany w danym kraju, nauczany w szkołach i wykorzystywany w oficjalnych dokumentach nie musi być językiem urzędowym.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Abstraction105854150"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/De_facto"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="pl">Język urzędowy</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Croatia"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://pt.dbpedia.org/resource/Língua_oficial"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Miami_Herald"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Yugoslavia"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Serbian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/IATA_airline_designator"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/Language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">An official language is a language that is given a special legal status in a particular country, state, or other jurisdiction. Typically a country's official language refers to the language used within government (e.g., courts, parliament, administration). Since "the means of expression of a people cannot be changed by any law", the term "official language" does not typically refer to the language used by a people or country, but by its government.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Right105174653"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >5673404</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >648398457</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageRevisionID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://es.dbpedia.org/resource/Idioma_oficial"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/English_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_World_Factbook"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/South_Africa"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="zh">官方语言（英语：Official language），經由國家，政府或其他具有管轄權的組織所認定具備法定地位的語言。一個國家的官方語言，通常就是政府機構中使用的正式語言，是其公民与其政府机关通讯时使用的语言。</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Judaeo-Spanish"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://wikidata.dbpedia.org/resource/Q4643772"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.wikidata.org/entity/Q4643772"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Tamil_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://7c-alliance.com/blog"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >650146442</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageRevisionID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="nl">Het begrip officiële taal is meerduidig. Hoewel zeer veel gebruikt, heeft het noch in België, noch in Nederland een juridische status. Er kunnen ten minste drie invullingen aan worden gegeven: 
+*  als juridisch begrip; 
+*  als omgangstalig substituut voor een taal met een wettelijke functie in het openbaar bestuur; 
+*  als taal waarvan het bestaan of de waarde door de overheid wordt erkend.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="it">Una lingua ufficiale è la lingua che uno Stato sovrano ha legalmente adottato per la produzione dei propri documenti ufficiali, come le leggi, gli atti giudiziari e notarili. Sono generalmente considerate lingue ufficiali di uno Stato le lingue citate come tali nella Costituzione o nelle leggi equiparate ad essa. Se le lingue minoritarie compaiono accanto alle lingue ufficiali come tali (es. "Nelle zone in cui è presente questa minoranza linguistica, tale lingua è ufficiale in quelle zone al pari della/e lingua/e ufficiale/i."), anche queste lingue sono considerate come ufficiali dello Stato (è il caso della Slovenia). Organismi sovranazionali, o associazioni private, possono definire una propria lingua ufficiale che può essere diversa da quella del paese in cui hanno sede, soprattutto se collabora con società straniere o tutela minoranze linguistiche. Tuttavia, non è detto che uno stato decida di adottare una o più determinate lingue ufficiali, come nel caso dell'Unione Sovietica, di cui si può indicare per ogni regione la lingua parlata de facto, ma giuridicamente l'Unione non adottò alcuna lingua che dovesse prevalere su ogni altra (per gli atti ufficiali si usava il russo).</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >745292917</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageRevisionID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="es">Idioma oficial</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Seventh_Cambridge_Survey"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">7C may stand for: 
+* 7C, the IATA code for Korean airline Jeju Air 
+* 7C, the Seventh Cambridge Survey, a radio astronomy reference 
+* 7C, the hexadecimal value for a percent-encoded pipe character (|) in a URI 
+* 7C, the 7 considerations for independent contract work and operation of a small services business, where the considerations start with the letter "C" 
+* 7C, the short name used for the 7C Alliance, the contractor networking business organised around the 7C considerations  
+* 7C, the short name used for 7: for Hamza and C: for Chbani, a man with a good heart and a smart bring</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Language106282651"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ja">公用語（こうようご）とは、国、州など、ある集団・共同体内の公の場において用いることが公式に定められた言語を指す。その集団が有する公的機関には義務が課され、公的情報を発信する際等には公用語を用いなければならない。「公共言語」というように間違えないよう注意。 ある国において公用語として複数の言語が定められた場合には、その全ての言語を用いて公的情報を国民へ伝えなければならない。従ってこの場合、国家（あるいは集団）の公的機関は、全ての公用語を併記し通訳して伝えることになる。これによって、指定された複数の言語のうちどれか一つの言語だけを理解する国民（や構成員）に対しても不利益を生じさせないという原則が守られる。 一言語集団が大多数を占める国家や圧倒的に強い力を持っている国家の場合、公用語を法律で定めていない場合もある。</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >193178</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Mainland_China"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/Official_language?oldid=745292917"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="zh">官方语言</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:parseType="Resource">
+        </rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/voc/vrank#hasRank"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Constitution_of_Latvia"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Achaemenid_Assyria"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Romani_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Insular_area"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>s</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Multilingualism"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/synset-newspaper-noun-2"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/property/wordnet_type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Idea105833840"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="de">Amtssprache</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_Aramaic"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="de">Die Amtssprache ist die im Sprachenrecht verbindlich geregelte Sprache eines Landes oder Staates, die für die Regierung und alle staatlichen Stellen untereinander und gegenüber den Bürgern gilt. In der Amtssprache werden Verwaltungsakte und Normen verfasst, Auskünfte an Bürger erteilt, Verhandlungen geführt und protokolliert. In ihr müssen auch Schriftsätze vor Gericht und Anträge eingereicht werden. Innerhalb eines Landes oder eines Gebietes kann es gleichzeitig mehrere Amtssprachen geben. Staaten mit mehreren Amtssprachen gebrauchen oft zur internen Verständigung aus Vereinfachungsgründen eine gesonderte Arbeitssprache. Amtssprachen und Arbeitssprachen sind auch bei internationalen Behörden wie der UNO und dem Europäischen Patentamt verbreitet.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Yiddish"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Aramaic_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="pt">Língua oficial</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="fr">Langue officielle</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">Official language</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Group100031264"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Slovene_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="it">Lingua ufficiale</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ru">Официальный язык — язык, имеющий привилегированный статус в государстве или международной организации. Применительно к официальному языку государства часто используется термин государственный язык, хотя главы и правительственные институты некоторых государств настаивают на разграничении этих двух понятий.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/7C"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ar">اللغة الرسمية هي لغة تُعطى اعتبارًا قانونيًا خاصًا في دولة معينة. عادةً ما تكون لغة الدولة الرسمية اللغة المستخدمة داخل الحكومة (على سبيل المثال في المحاكم والبرلمان والإدارات). بما أن "وسائل تعبير شعب لا يمكن تغييرها بأي قانون"، فإن عبارة "لغة رسمية" لا تشير عادةً إلى اللغة المستخدمة من طرف شعب أو دولة، وإنما إلى اللغة المستخدمة من طرف حكومتها. حول العالم، تمتلك 178 دولة لغة رسمية واحدة على الأقل، و101 دولة منها تعترف بأكثر من لغة. تذكر العديد من دساتير العالم لغة رسمية أو وطنية واحدة أو أكثر. تستخدم بعض الدول تعيينَ اللغة الرسمية لدعم مجموعات السكان الأصليين من خلال منحهم إمكانية الوصول إلى الحكومة في لغاتهم الأصلية. الإنگليزية هي اللغة الأكثر شيوعًا، حيث تعترف بها 51 دولة. اللغات العربية والفرنسية و‌الإسبانية أيضًا معترف بها على نطاق واسع.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Minority_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Spanish_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Nigeria"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Serbo-Croatian"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Pashto_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Languages_of_South_Africa"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ru">Официальный язык — язык, имеющий привилегированный статус в государстве или международной организации. Применительно к официальному языку государства часто используется термин государственный язык, хотя главы и правительственные институты некоторых государств настаивают на разграничении этих двух понятий.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >45594818</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Persian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Arabic"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/YouGov"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Constitution_of_Afghanistan"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Montenegro"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="es">Un idioma o lengua oficial es el establecido como de uso corriente en documentos oficiales, en la Constitución u otros instrumentos legales de una nación y, por extensión, en sus territorios o áreas administrativas directas. Es el idioma de uso oficial en los actos del gobierno o en los actos y servicios de la administración pública, en la justicia y el sector privado. También puede ser, sin que exista obligación legal, la lengua de instrucción y enseñanza oficial en el sistema educacional público e incluso privado.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Driver&apos;s_license_in_the_United_States"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Concept105835747"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="nl">Het begrip officiële taal is meerduidig. Hoewel zeer veel gebruikt, heeft het noch in België, noch in Nederland een juridische status. Er kunnen ten minste drie invullingen aan worden gegeven: 
+*  als juridisch begrip; 
+*  als omgangstalig substituut voor een taal met een wettelijke functie in het openbaar bestuur; 
+*  als taal waarvan het bestaan of de waarde door de overheid wordt erkend.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Regions"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/List_of_territorial_entities_where_Portuguese_is_an_official_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.wikidata.org/entity/Q23492"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Amharic"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/International_Air_Transport_Association"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Bosnia-Herzegovina"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Belgium"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="fr">Une langue officielle est une langue qui est spécifiquement désignée comme telle, dans la constitution ou les textes de loi d'un pays, d'un État ou d'une organisation quelconque. Elle s'impose à tous les services officiels de l'État (organes de gouvernement, administrations, tribunaux, registres publics, documents administratifs, etc.), ainsi qu'à tous les établissements privés qui s'adressent au public.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/U.S._English_(organization)"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://wikidata.dbpedia.org/resource/Q23492"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>c</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Collection107951464"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Yukon"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://ja.dbpedia.org/resource/公用語"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Philippines"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Dialect"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Northwest_Territories"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Corruption_in_South_Africa"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="es">Un idioma o lengua oficial es el establecido como de uso corriente en documentos oficiales, en la Constitución u otros instrumentos legales de una nación y, por extensión, en sus territorios o áreas administrativas directas. Es el idioma de uso oficial en los actos del gobierno o en los actos y servicios de la administración pública, en la justicia y el sector privado. También puede ser, sin que exista obligación legal, la lengua de instrucción y enseñanza oficial en el sistema educacional público e incluso privado.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://yago-knowledge.org/resource/Official_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Ethnic_groups_in_Bosnia_and_Herzegovina"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Indigenous_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://el.dbpedia.org/resource/Επίσημη_γλώσσα"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Politics_of_Afghanistan"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Chinese_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Mandarin_Chinese"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/C7_(disambiguation)"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="nl">Officiële taal</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="de">Die Amtssprache ist die im Sprachenrecht verbindlich geregelte Sprache eines Landes oder Staates, die für die Regierung und alle staatlichen Stellen untereinander und gegenüber den Bürgern gilt. In der Amtssprache werden Verwaltungsakte und Normen verfasst, Auskünfte an Bürger erteilt, Verhandlungen geführt und protokolliert. In ihr müssen auch Schriftsätze vor Gericht und Anträge eingereicht werden.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://pl.dbpedia.org/resource/Język_urzędowy"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/History_of_Achaemenid_Egypt"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/New_Zealand"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Percent-encoding"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Montenegrin_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Nunavut"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="ar">اللغة الرسمية هي لغة تُعطى اعتبارًا قانونيًا خاصًا في دولة معينة. عادةً ما تكون لغة الدولة الرسمية اللغة المستخدمة داخل الحكومة (على سبيل المثال في المحاكم والبرلمان والإدارات). بما أن "وسائل تعبير شعب لا يمكن تغييرها بأي قانون"، فإن عبارة "لغة رسمية" لا تشير عادةً إلى اللغة المستخدمة من طرف شعب أو دولة، وإنما إلى اللغة المستخدمة من طرف حكومتها.</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:parseType="Resource">
+        </rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/voc/vrank#hasRank"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Simplified_Chinese_characters"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Darius_the_Great"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://eu.dbpedia.org/resource/Hizkuntza_ofizial"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://id.dbpedia.org/resource/Bahasa_resmi"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Category:Official_languages"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Sogdiana"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/German_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/United_States"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Jurisdiction_(area)"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Croatian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/List_of_official_languages_by_state"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/Official_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Danish_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Communication100033020"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Latvian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/PsychologicalFeature100023100"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Miami_Herald"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageRedirects"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Sorbian_language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/English-only_movement"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://fr.dbpedia.org/resource/Langue_officielle"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Achaemenid_Empire"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Traditional_Chinese_characters"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/List_of_multilingual_countries"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Latvian_constitutional_referendum,_2012"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Bactria"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Government_of_Canada"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/Content105809192"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://d-nb.info/gnd/4001807-6"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Ukraine"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Serbia"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/WikicatLanguageVarietiesAndStyles"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/California"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Hong_Kong"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/List_of_languages_without_official_status"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="https://www.cia.gov/library/publications/the-world-factbook/fields/2098.html"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Uniform_Resource_Identifier"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">7C</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://de.dbpedia.org/resource/Amtssprache"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/The_Miami_Herald"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:size rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >211</rs:size>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/class/yago/WikicatLanguages"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Language"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/linguistics/gold/hypernym"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Official_language"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+  </rs:ResultSet>
+</rdf:RDF>

@@ -5,7 +5,7 @@ import org.json.*;
 public class Spotlight {
 	public static JSONArray spotlightText(String text) throws IOException, JSONException {
 
-		final String url = "http://model.dbpedia-spotlight.org/en/annotate";
+		final String url = "http://model.dbpedia-spotlight.org/fr/annotate";
 
 		String conf = "0.3";
 
