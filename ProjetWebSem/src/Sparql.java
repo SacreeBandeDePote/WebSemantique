@@ -15,14 +15,14 @@ public class Sparql {
 		
 		//int i = 0;
 		
-		for (int i = 0; i < uris.length()/100; i++) {
+		for (int i = 0; i < uris.length()/500; i++) {
 			String uri = (String) uris.get(i);
 			filter = filter + "<"
 					+ uri
 					+ ">,\n";
 		}
 		
-		String uri = (String) uris.get(uris.length()/100);
+		String uri = (String) uris.get(uris.length()/500);
 		filter = filter + "<"
 				+ uri.toString()
 				+ ">";
