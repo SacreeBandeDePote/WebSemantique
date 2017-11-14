@@ -1,0 +1,408 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rs="http://www.w3.org/2001/sw/DataAccess/tests/result-set#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rs:ResultSet>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">7C</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/IATA_airline_designator"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>v</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">7C may stand for: 
+* 7C, the IATA code for Korean airline Jeju Air 
+* 7C, the Seventh Cambridge Survey, a radio astronomy reference 
+* 7C, the hexadecimal value for a percent-encoded pipe character (|) in a URI 
+* 7C, the 7 considerations for independent contract work and operation of a small services business, where the considerations start with the letter "C" 
+* 7C, the short name used for the 7C Alliance, the contractor networking business organised around the 7C considerations  
+* 7C, the short name used for 7: for Hamza and C: for Chbani, a man with a good heart and a smart bring</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.wikidata.org/entity/Q4643772"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/International_Air_Transport_Association"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>s</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Percent-encoding"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>c</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:parseType="Resource">
+        </rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/voc/vrank#hasRank"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Jeju_Air"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >5673404</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/7C"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/synset-newspaper-noun-2"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/property/wordnet_type"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/7C?oldid=648398457"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >45594818</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/The_Miami_Herald?oldid=650146442"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Seventh_Cambridge_Survey"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">The Miami Herald</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://wikidata.dbpedia.org/resource/Q4643772"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Miami_Herald"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Uniform_Resource_Identifier"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/Miami_Herald"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageRedirects"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:size rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >27</rs:size>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:parseType="Resource">
+        </rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/voc/vrank#hasRank"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value xml:lang="en">7C may stand for: 
+* 7C, the IATA code for Korean airline Jeju Air 
+* 7C, the Seventh Cambridge Survey, a radio astronomy reference 
+* 7C, the hexadecimal value for a percent-encoded pipe character (|) in a URI 
+* 7C, the 7 considerations for independent contract work and operation of a small services business, where the considerations start with the letter "C" 
+* 7C, the short name used for the 7C Alliance, the contractor networking business organised around the 7C considerations  
+* 7C, the short name used for 7: for Hamza and C: for Chbani, a man with a good heart and a smart bring</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/abstract"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://7c-alliance.com/blog"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://en.wikipedia.org/wiki/The_Miami_Herald"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/C7_(disambiguation)"/>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageWikiLink"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >650146442</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageRevisionID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/The_Miami_Herald"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >648398457</rs:value>
+        <rs:variable>c</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/ontology/wikiPageRevisionID"/>
+        <rs:variable>v</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://dbpedia.org/resource/7C"/>
+        <rs:variable>s</rs:variable>
+      </rs:binding>
+    </rs:solution>
+  </rs:ResultSet>
+</rdf:RDF>

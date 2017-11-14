@@ -17,16 +17,16 @@ public class Sparql {
 		
 		System.out.println(uris.length());
 		
-		for (int i = 0; i < uris.length()/200; i++) {
-			String uri = (String) uris.get(i);
+		int ln = uris.length()/200;
+		System.out.println("Trimmed: "+ln);
+		String uri = (String) uris.get(0);
 			filter = filter + "<"
 					+ uri
 					+ ">,\n";
-		}
 		
-		String uri = (String) uris.get(uris.length()/200);
+		String uri2 = (String) uris.get(1);
 		filter = filter + "<"
-				+ uri
+				+ uri2
 				+ ">";
 		
 		//System.out.println(filter);
