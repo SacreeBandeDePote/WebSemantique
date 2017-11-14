@@ -20,9 +20,12 @@ public class RDF {
 		
 		FileOutputStream file = new FileOutputStream(OUTPUT_DIRECTORY+"output_"+query+".xml");
 		
-		/*Model model = RDFOutput.encodeAsModel(res);
-		
-		model.write(file, "RDF/XML");*/
+		/* 
+		 * 
+		 * http://www.easyrdf.org/converter
+		 * http://outils-seo.alwaysdata.net/outils-contenu-editorial/calcul-similarite-contenu/
+		 * 
+		 */
 		
 		RDFOutput.outputAsRDF(file, "RDF/XML", res);
 		//ResultSetFormatter.outputAsXML(file, res);
