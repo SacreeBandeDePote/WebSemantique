@@ -8,11 +8,13 @@ public class ExtractURL {
 
 	private static final String CACHE_DIRECTORY = "cache/";
 
+	/*MAIN FOR TESTING CLASS
 	public static void main(String args[]) throws UnsupportedEncodingException {
+		
 		String qry = "Catalunia";
 
 		extractURLFromRequest(qry);
-	}
+	}*/
 
 	public static ArrayList<String> extractURLFromRequest(String qry) throws UnsupportedEncodingException {
 

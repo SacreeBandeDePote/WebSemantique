@@ -31,17 +31,19 @@ public class Main {
 			}
 			
 			ResultSet res = Sparql.performeSparql(uri);
-			RDF.createRDF(res);
-			while(res.hasNext()) {
+			RDF.createRDF(res, query+compt);
+			/*while(res.hasNext()) {
 				QuerySolution sol = res.nextSolution();
 				//System.out.println(sol);
-			}
+			}*/
 
 			//System.out.println(compt);
 			//System.out.println(uris);
 
 			compt++;
 		}
+		
+		System.out.println("Done");
 		//System.out.println(uris);
 	}
 
